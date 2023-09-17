@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    <bean id="bookService" class="sdwz.zj.service.impl.BookServiceImpl">-->
+    <!--&lt;!&ndash;        name:参照的实现类对象&ndash;&gt;-->
+    <!--&lt;!&ndash;        ref：参照哪一个bean&ndash;&gt;-->
+    <!--        <property name="dao" ref="bookdao"/>-->
+    <!--    </bean>-->
+    <!--    <bean id="bookdao" class="sdwz.zj.dao.impl.DaoImpl"/>-->
+    <!--    方式四-->
+    <!--    <bean id="bookService" class="sdwz.zj.factory.UserDaoFactory"/>-->
+    
+<!--    加载properties文件-->
+    <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
+    
+    <bean id="dao" class="sdwz.zj.dao.impl.DaoImpl"/>
+    <bean id="bookService" class="sdwz.zj.service.impl.BookServiceImpl" autowire="byType">
+        <property name="daoBookService" ref="dao"/>
+        <property name="name" value="${user.name}"/>
+        <property name="id" value="${user.id}"/>
+    </bean>
+
+</beans>
