@@ -8,20 +8,20 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--    <bean id="bookService" class="sdwz.zj.service.impl.BookServiceImpl">-->
+    <!--    <bean id="bookService" class="sdwz.BookServiceImpl">-->
     <!--&lt;!&ndash;        name:参照的实现类对象&ndash;&gt;-->
     <!--&lt;!&ndash;        ref：参照哪一个bean&ndash;&gt;-->
     <!--        <property name="dao" ref="bookdao"/>-->
     <!--    </bean>-->
-    <!--    <bean id="bookdao" class="sdwz.zj.dao.impl.DaoImpl"/>-->
+    <!--    <bean id="bookdao" class="sdwz.DaoImpl"/>-->
     <!--    方式四-->
-    <!--    <bean id="bookService" class="sdwz.zj.factory.UserDaoFactory"/>-->
+    <!--    <bean id="bookService" class="sdwz.UserDaoFactory"/>-->
     
 <!--    加载properties文件-->
     <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
     
-    <bean id="dao" class="sdwz.zj.dao.impl.DaoImpl"/>
-    <bean id="bookService" class="sdwz.zj.service.impl.BookServiceImpl" autowire="byType">
+    <bean id="dao" class="sdwz.DaoImpl"/>
+    <bean id="bookService" class="sdwz.BookServiceImpl" autowire="byType">
         <property name="daoBookService" ref="dao"/>
         <property name="name" value="${user.name}"/>
         <property name="id" value="${user.id}"/>

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day1-spring-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/day2-AnnotationDevelopment-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/day1-spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/day2-AnnotationDevelopment-demo/pom.xml" />
       </list>
     </option>
   </component>
