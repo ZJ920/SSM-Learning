@@ -20,6 +20,22 @@
   </properties>
 
   <dependencies>
+
+<!--spring-context是Spring框架的核心模块之一，提供了基本的IoC（控制反转）和DI（依赖注入）功能，以及通过ApplicationContext来管理bean的生命周期和配置。
+    spring-context模块包含了以下主要的功能和特点：
+    IoC容器：
+      spring-context模块提供了ApplicationContext接口，用于管理应用程序中的bean实例。它实现了IoC容器的功能，负责创建、装配和管理bean的生命周期。
+    依赖注入（DI）：
+      Spring框架通过依赖注入实现了对象之间的解耦。spring-context模块提供了各种注入方式，如构造函数注入、setter方法注入和字段注入，使得开发者可以方便地组装和配置依赖关系。
+    配置元数据：
+      Spring框架使用XML、注解或Java配置等方式来定义和配置bean。spring-context模块提供了解析和处理这些配置元数据的功能，以便正确地创建和初始化bean。
+    事件传播：
+      spring-context模块支持应用程序中的事件机制。开发者可以定义自定义事件，并使用ApplicationContext发布和监听这些事件，实现模块之间的松耦合通信。
+    国际化和本地化：
+      Spring框架支持国际化和本地化，以便为应用程序提供多语言和本地化的支持。spring-context模块提供了相关的功能和API来实现资源绑定、消息解析和格式化等国际化特性。
+    总而言之：
+      spring-context模块是Spring框架中最核心和最基础的部分之一，提供了IoC容器、依赖注入、配置管理、事件传播和国际化等重要功能，
+      为开发者构建灵活、可扩展和可维护的应用程序提供了强大的支持。-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
@@ -54,6 +70,25 @@
       <artifactId>mybatis-spring</artifactId>
       <version>1.3.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.2.10.RELEASE</version>
+    </dependency>
+
+      <dependency>
+          <groupId>org.aspectj</groupId>
+          <artifactId>aspectjweaver</artifactId>
+          <version>1.9.4</version>
+      </dependency>
+
   </dependencies>
 
   <build>
