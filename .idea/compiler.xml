@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day6-springmvc-demo" />
         <module name="day1-spring-demo" />
         <module name="day2-AnnotationDevelopment-demo" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="day1-spring-demo" target="1.7" />
       <module name="day2-AnnotationDevelopment-demo" target="1.7" />
+      <module name="day6-springmvc-demo" target="1.8" />
       <module name="spring_15_spring_mybatis" target="11" />
     </bytecodeTargetLevel>
   </component>

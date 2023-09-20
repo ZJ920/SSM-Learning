@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day1-spring-demo/day1-spring-demo.iml" filepath="$PROJECT_DIR$/day1-spring-demo/day1-spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day2-AnnotationDevelopment-demo/day2-AnnotationDevelopment-demo.iml" filepath="$PROJECT_DIR$/day2-AnnotationDevelopment-demo/day2-AnnotationDevelopment-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day6-springmvc-demo/day6-springmvc-demo.iml" filepath="$PROJECT_DIR$/day6-springmvc-demo/day6-springmvc-demo.iml" />
     </modules>
   </component>
 </project>
