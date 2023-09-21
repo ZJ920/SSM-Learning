@@ -1,3 +1,8 @@
-sdwz\zj\config\ServletContainersInitConfig.class
+sdwz\zj\config\SpringMVCSupport.class
+sdwz\zj\config\SpringMVCConfig.class
+sdwz\zj\domain\User.class
 sdwz\zj\controller\UserController.class
-sdwz\zj\config\SpringMvcConfig.class
+sdwz\zj\domain\Address.class
+sdwz\zj\config\ServletContainersInitConfig.class
+sdwz\zj\controller\BookController.class
+sdwz\zj\domain\Book.class

@@ -13,10 +13,8 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
     @Override
     protected WebApplicationContext createServletApplicationContext() {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(SpringMvcConfig.class);
-        String[] str = {"/"};
+        ctx.register(SpringMVCConfig.class);
         return ctx;
-
     }
 
     @Override
