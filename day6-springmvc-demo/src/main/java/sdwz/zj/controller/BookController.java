@@ -41,6 +41,7 @@ public class BookController {
         return "{'module':'book getById'}";
     }
 
+
 //    @RequestMapping(method = RequestMethod.GET)
     @GetMapping             //使用@GetMapping简化GET请求方法对应的映射配置
     @ResponseBody
