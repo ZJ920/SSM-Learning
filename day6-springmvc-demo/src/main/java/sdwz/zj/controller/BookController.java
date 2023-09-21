@@ -37,6 +37,7 @@ public class BookController {
 //    @RequestMapping(value = "/{id}" ,method = RequestMethod.GET)
     @GetMapping("/{id}")    //使用@GetMapping简化GET请求方法对应的映射配置
     public String getById(@PathVariable Integer id){
+
         System.out.println("book getById..."+id);
         return "{'module':'book getById'}";
     }
