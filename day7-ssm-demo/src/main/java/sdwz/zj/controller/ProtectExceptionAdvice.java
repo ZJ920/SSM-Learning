@@ -3,7 +3,6 @@ package sdwz.zj.controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-
 //声明一个异常处理器
 @RestControllerAdvice
 public class ProtectExceptionAdvice {
