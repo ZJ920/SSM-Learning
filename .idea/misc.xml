@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day1-spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day2-AnnotationDevelopment-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day6-springmvc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/day7-ssm-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/day2-AnnotationDevelopment-demo/pom.xml" />
         <option value="$PROJECT_DIR$/day66-springmvc-demo/pom.xml" />
         <option value="$PROJECT_DIR$/day6-springmvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/day7-ssm-demo/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day7-ssm-demo:war">
+    <output-path>$PROJECT_DIR$/day7-ssm-demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day7-ssm-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day7-ssm-demo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day7-ssm-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
